@@ -1,0 +1,21 @@
+UnlitGeneric
+{
+$basetexture "vgui/Left4Dead2Logo"
+$translucent 1
+$ignorez 1
+$additive 0
+$no_fullbright 1
+$offset 0
+
+Proxies
+{
+    "Sine"
+    {
+      "sineperiod" "4"
+      "sinemin" "0.1"
+      "sinemax" "0.25"
+      "timeoffset" "$offset"
+      "resultVar" "$alpha"
+    }
+}
+}

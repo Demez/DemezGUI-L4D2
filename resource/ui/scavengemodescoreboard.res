@@ -1,0 +1,243 @@
+"Resource/UI/ScavengeModeScoreboard.res"
+{
+	"RoundInfoBackground"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"RoundInfoBackground"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"274"
+		"tall"					"28"		
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"0 0 0 220"
+	}
+
+	"RoundInfoMessage"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"RoundInfoMessage"
+		"xpos"				"5"
+		"ypos"				"5"
+		"wide"				"264"
+		"tall"				"18"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"#L4D_Scavenge_TeamFlip"
+		"textAlignment"		"west"
+		"font"				"MenuTitle"
+		"fgcolor_override"	"White"
+	}
+
+	"RoundLabelBackground"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"RoundLabelBackground"
+		"xpos"					"0"
+		"ypos"					"31"
+		"wide"					"274"
+		"tall"					"24"		
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"0 0 0 220"
+	}
+
+	"RoundLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"RoundLabel"
+		"xpos"				"5"
+		"ypos"				"36"
+		"wide"				"264"
+		"tall"				"14"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"#L4D_Scavenge_Round_Current"
+		"textAlignment"		"west"
+		"font"				"PlayerDisplayName"
+		"fgcolor_override"	"MediumGray"
+	}
+
+	"RoundLimitLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"RoundLimitLabel"
+		"xpos"				"5"
+		"ypos"				"36"
+		"wide"				"264"
+		"tall"				"14"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"#L4D_Scavenge_RoundLimit"
+		"textAlignment"		"east"
+		"font"				"PlayerDisplayName"
+		"fgcolor_override"	"MediumGray"
+	}
+
+	"RoundTipBackground"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"RoundTipBackground"
+		"xpos"					"0"
+		"ypos"					"106"
+		"wide"					"274"
+		"tall"					"26"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"0 0 0 220"
+	}
+
+	"RoundTipMessage"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"RoundTipMessage"
+		"xpos"				"5"
+		"ypos"				"111"
+		"wide"				"264"
+		"tall"				"16"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"#L4D_Scavenge_TeamFlip"
+		"textAlignment"		"center"
+		"font"				"HudNumbersSmall"		[$ENGLISH]
+		"font"				"BodyText_medium"		[!$ENGLISH]
+		"fgcolor_override"	"White"
+	}
+
+	"ScoreBackground"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"ScoreBackground"
+		"xpos"					"0"
+		"ypos"					"58"
+		"wide"					"274"
+		"tall"					"45"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"0 0 0 220"
+	}
+
+	"YourTeamLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"YourTeamLabel"
+		"xpos"				"10"
+		"ypos"				"63"
+		"wide"				"200"
+		"tall"				"16"
+		"visible"			"1"
+		"labelText"			"#L4D_Scavenge_YourTeam"
+		"textAlignment"		"west"
+		"font"				"PlayerDisplayName"
+		"fgcolor_override"	"White"
+	}
+	
+	"EnemyTeamLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"EnemyTeamLabel"
+		"xpos"				"10"
+		"ypos"				"81"
+		"wide"				"200"
+		"tall"				"16"
+		"visible"			"1"
+		"labelText"			"#L4D_Scavenge_Opponent"
+		"textAlignment"		"west"
+		"font"				"PlayerDisplayName"
+		"fgcolor_override"	"White"
+	}	
+
+	"Round1Panel"
+	{
+		"ControlName"	"CScavengeRoundPanel"
+		"fieldName"		"Round1Panel"
+		"xpos"			"121"
+		"ypos"			"63"
+		"wide"			"24"
+		"tall"			"44"		
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"15"
+	}
+	"Round2Panel"
+	{
+		"ControlName"	"CScavengeRoundPanel"
+		"fieldName"		"Round2Panel"
+		"xpos"			"142"
+		"ypos"			"63"
+		"wide"			"24"
+		"tall"			"44"		
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"15"
+	}
+	"Round3Panel"
+	{
+		"ControlName"	"CScavengeRoundPanel"
+		"fieldName"		"Round3Panel"
+		"xpos"			"163"
+		"ypos"			"63"
+		"wide"			"24"
+		"tall"			"44"		
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"15"
+	}
+	"Round4Panel"
+	{
+		"ControlName"	"CScavengeRoundPanel"
+		"fieldName"		"Round4Panel"
+		"xpos"			"184"
+		"ypos"			"63"
+		"wide"			"24"
+		"tall"			"44"		
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"15"
+	}
+	"Round5Panel"
+	{
+		"ControlName"	"CScavengeRoundPanel"
+		"fieldName"		"Round5Panel"
+		"xpos"			"205"
+		"ypos"			"63"
+		"wide"			"24"
+		"tall"			"44"		
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"15"
+	}
+
+	"FinalScorePanel"
+	{
+		"ControlName"	"CScavengeRoundPanel"
+		"fieldName"		"FinalScorePanel"
+		"xpos"			"247"
+		"ypos"			"63"
+		"wide"			"24"
+		"tall"			"44"		
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"15"
+	}
+}

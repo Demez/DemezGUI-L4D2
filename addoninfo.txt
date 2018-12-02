@@ -1,0 +1,58 @@
+"AddonInfo"
+{
+	addonSteamAppID			550 // Steam App ID: 500 for Left 4 Dead, 550 for Left 4 Dead 2
+	
+	addontitle				"DemezGUI" // Title of the addon, ~20 characters maximum
+	addonversion			1.0 // Version number of the addon, <major>.<minor>
+	addontagline			"test tagline" // Tagline/wrap-up short description, ~100 characters maximum
+	addonDescription		"Tons of fucken shit" // Description of addon
+	
+	addonauthor 			"Demez"
+	addonAuthorSteamID 		"76561198335349419" // (Optional) Steam ID of author. We use this to construct a URL to the author's page.
+	
+	addonURL0 				"https://github.com/Demez/DemezGUI-L4D2 // put github repo link here // Home page of addon with a download link
+	
+	// ============================================================
+	// Addon Content						If the addon...
+	addonContent_Campaign 			"0" // 	Is a series of connected maps with a finale
+	addonContent_Survival 			"0" // 	
+	addonContent_Scavenge 			"0" // 	
+	addonContent_Versus 			"0" // 	
+	addonContent_Map 				"0" // 	standalone map
+	addonContent_Survivor 			"0" // 	replaces a character model: 0=false, 1=true, String in quotes if replaces specific single character, i.e. "Coach"
+	addonContent_Skin 				"0" // 	provides a new skin: 0 for no new skin(s), 1 for multiple skins, string for single skin (the latter only on Left 4 Dead 2)
+	addonContent_BossInfected 		"0" // 	provides a new boss model
+	addonContent_CommonInfected		"0" // 	
+	addonContent_Music 				"0" // 	
+	addonContent_Sound 				"0" // 	
+	addonContent_Prop 				"0" // 	
+	addonContent_Prefab 			"0" // 	
+	addonContent_Spray 				"0" // 	
+	addonContent_Script 			"0" // 	
+	addonContent_BackgroundMovie	"0" // 	
+	Content_Weapon					"0" // 	provides a new weapon, i.e. guns, explosives, booby traps, hot tar, etc.
+	Content_WeaponModel				"0" // 	overrides a weapon skin (for existing weapons)
+	// where the fuck is the ui option
+	
+// ============================================================
+// Addons Merged/Used
+// ============================================================
+// 	Neun GUI: https://steamcommunity.com/sharedfiles/filedetails/?id=121091252
+//		Side Panel: https://steamcommunity.com/sharedfiles/filedetails/?id=121123376
+//			- remove changed icons
+//			Idle Indicator: https://steamcommunity.com/sharedfiles/filedetails/?id=1203555364
+//		NeunGUI + White Progress Bar: https://steamcommunity.com/sharedfiles/filedetails/?id=677116716
+//		WeaponPanel: https://steamcommunity.com/sharedfiles/filedetails/?id=123183026
+//	
+//	inkHUD: https://steamcommunity.com/sharedfiles/filedetails/?id=426693440
+//		- used some menu buttons only
+//		
+//	BASE - Urik Game Menu: https://steamcommunity.com/sharedfiles/filedetails/?id=121272536
+//		- Used Almost all of this of Menu's, removed split screen (the huge ass mess)
+//	
+//	
+//	
+//	
+//	
+ 
+}

@@ -1,0 +1,130 @@
+"Resource/UI/ScavengeTieBreakerPanel.res"
+{
+	"TieBreakerPanel"
+	{
+		"ControlName"		"TieBreakerPanel"
+		"fieldName"			"tiebreaker"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"274"
+		"tall"				"132"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"0"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"padding"			"0"
+		"zpos"				"50"
+	}
+
+	"RoundInfoMessage"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"RoundInfoMessage"
+		"xpos"				"5"
+		"ypos"				"5"
+		"wide"				"264"
+		"tall"				"18"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"#L4D_Scavenge_TieBreaker_Title"
+		"textAlignment"		"west"
+		"font"				"MenuTitle"
+		"fgcolor_override"	"White"
+	}
+
+	"TieBreakerMethodLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"TieBreakerMethodLabel"
+		"xpos"				"5"
+		"ypos"				"111"
+		"wide"				"264"
+		"tall"				"16"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			""
+		"textAlignment"		"center"
+		"font"				"HudNumbersSmall"
+	}
+	
+	"BackgroundFill"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"BackgroundFillYour"
+		"xpos"					"0"
+		"ypos"					"58"
+		"wide"					"274"
+		"tall"					"45"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"0 20 0 254"
+	}
+	
+	"YourTeamLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"YourTeamLabel"
+		"xpos"				"10"
+		"ypos"				"63"
+		"wide"				"200"
+		"tall"				"16"
+		"visible"			"1"
+		"labelText"			"#L4D_Scavenge_YourTeam"
+		"textAlignment"		"west"
+		"font"				"PlayerDisplayName"
+		"fgcolor_override"	"White"
+	}
+
+	"EnemyTeamLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"EnemyTeamLabel"
+		"xpos"				"10"
+		"ypos"				"81"
+		"wide"				"200"
+		"tall"				"16"
+		"visible"			"1"
+		"labelText"			"#L4D_Scavenge_Opponent"
+		"textAlignment"		"west"
+		"font"				"PlayerDisplayName"
+		"fgcolor_override"	"White"
+	}	
+
+	"YourTeamTime"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"YourTeamTime"
+		"xpos"				"204"
+		"ypos"				"63"
+		"wide"				"60"
+		"tall"				"14"
+		"visible"			"1"
+		"labelText"			"00:00.00"
+		"textAlignment"		"east"
+		"font"				"MenuTitle"
+		"fgcolor_override"	"White"
+	}	
+	
+	"EnemyTeamTime"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"EnemyTeamTime"
+		"xpos"				"204"
+		"ypos"				"81"
+		"wide"				"60"
+		"tall"				"14"
+		"visible"			"1"
+		"labelText"			"00:00.00"
+		"textAlignment"		"east"
+		"font"				"MenuTitle"
+		"fgcolor_override"	"White"
+	}	
+}

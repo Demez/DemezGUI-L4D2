@@ -1,0 +1,1 @@
+c13m3_memorialbridge.vtf shows for Cold Stream since Valve's mission txt file for Cold Stream lists c13m3_memorialbridge as thumbnail.
