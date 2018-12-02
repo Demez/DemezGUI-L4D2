@@ -50,7 +50,7 @@
 //	BASE - Urik Game Menu: https://steamcommunity.com/sharedfiles/filedetails/?id=121272536
 //		- Used Almost all of this of Menu's, removed split screen (the huge ass mess)
 //	
-//	
+//	NEW HUD (removes background on player menu (tab))  https://steamcommunity.com/sharedfiles/filedetails/?id=909981683
 //	
 //	
 //	

@@ -1,28 +1,14 @@
 "Resource/UI/HUD/ProgressBar.res"
 {
-	"BackgroundImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundImage"
-		"xpos"			"-15"
-		"ypos"			"-51"
-		"wide"			"256"
-		"tall"			"128"
-		"zpos"			"-1"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"			"hud/progressbar_bg"
-		"drawColor"		"80 76 82 255"
-	}
+
 	
 	"BarLabel"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"BarLabel"
-		"xpos"			"53"
-		"ypos"			"0"
-		"wide"			"240"
+		"xpos"			"39"
+		"ypos"			"7"
+		"wide"			"290"
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
@@ -30,7 +16,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"PlayerDisplayName"
+		"font"			"MenuTitle_DropShadow"
 		"fgcolor_override" "White"
 	}
 	
@@ -38,10 +24,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Bar"
-		"xpos"			"49"
-		"ypos"			"15"
-		"wide"			"152"
-		"tall"			"31"
+		"xpos"			"34"
+		"ypos"			"24"
+		"wide"			"227"
+		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -52,10 +38,10 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"AwardIcon"
-		"xpos"			"27"
-		"ypos"			"2"
-		"wide"			"23"
-		"tall"			"23"
+		"xpos"			"9"
+		"ypos"			"10"
+		"wide"			"25"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -66,15 +52,15 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"Subtext"
-		"xpos"			"26"
-		"ypos"			"17"
+		"xpos"			"39"
+		"ypos"			"28"
 		"wide"			"300"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"west"
-		"font"			"PlayerDisplaySmall"
+		"font"			"PlayerDisplayName"
 		"fgcolor_override" "White"	
 	}
 }
